@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z-Index</title>
+    <style>
+*{
+    margin: auto;
+    padding: 0%;
+}
+
+header{
+    background-image: url('images/download.jfif');
+    color: aliceblue;
+    height: 10vh;
+    width: 100vw;
+    border: 3px solid black;
+    position: sticky;
+    top: 0%
+   
+}
+li{
+    font-size: 3vh;
+    display: inline-block;
+    padding-left: 2vw;
+    padding-top: 2.5vh;
+}
+
+.left{
+    padding-left: 50vw;
+}
+
+.conatiner1{
+    height: 300px;
+    width: 300px;
+    border: 5px solid black;
+    margin: auto;
+    position: sticky;
+    top: 0%;
+    z-index: 2;
+    background-image: url('images/pexels-elijah-o\'donnell-3473569.jpg');
+    color:white;
+    padding: 20px;
+}
+
+.conatiner2{
+    height: 500px;
+    width: 500px;
+    border: 5px solid black;
+    position: relative;
+    top: 20px;
+    
+}
+
+.conatiner3{
+    height: 600px;
+    width: 600px;
+    border: 5px solid black;
+    
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li> 
+                <li>Experience</li> 
+                <li>About</li>
+                <li class="left"><input type="text" placeholder="Search..."></li>
+            </ul>
+        </nav>
+    </header>
+<div class="conatiner1"><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias, consequatur commodi tenetur animi eos cupiditate nesciunt perferendis nemo culpa veritatis aperiam illum sapiente consequuntur voluptates voluptas, amet omnis repellat perspiciatis, similique deleniti molestiae. Voluptates ratione nisi natus a alias voluptatibus molestias mollitia, enim ipsa voluptate dolor totam perspiciatis saepe magnam velit dignissimos maiores optio eum perferendis laboriosam labore. Dolore velit neque tempora? Soluta a accusantium eum quaerat?</p></div>
+
+
+<div class="conatiner2"><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias, consequatur commodi tenetur animi eos cupiditate nesciunt perferendis nemo culpa veritatis aperiam illum sapiente consequuntur voluptates voluptas, amet omnis repellat perspiciatis, similique deleniti molestiae. Voluptates ratione nisi natus a alias voluptatibus molestias mollitia, enim ipsa voluptate dolor totam perspiciatis saepe magnam velit dignissimos maiores optio eum perferendis laboriosam labore. Dolore velit neque tempora? Soluta a accusantium eum quaerat?</p></div>
+
+<div class="conatiner3"><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias, consequatur commodi tenetur animi eos cupiditate nesciunt perferendis nemo culpa veritatis aperiam illum sapiente consequuntur voluptates voluptas, amet omnis repellat perspiciatis, similique deleniti molestiae. Voluptates ratione nisi natus a alias voluptatibus molestias mollitia, enim ipsa voluptate dolor totam perspiciatis saepe magnam velit dignissimos maiores optio eum perferendis laboriosam labore. Dolore velit neque tempora? Soluta a accusantium eum quaerat?</p></div>
+
+    
+</body>
+</html>
