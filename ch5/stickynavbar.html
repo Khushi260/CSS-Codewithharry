@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Navbar</title>
+    <style>
+    *{
+         margin: 0%;
+         padding: 0%;
+    }
+    header{
+        background-image: url('images/pexels-elijah-o\'donnell-3473569.jpg');
+        height: 10vh;
+        width: 100vw;
+        color: aliceblue;
+        position: sticky;
+        top: 0%;
+        z-index: 1;
+        margin-bottom: 20vh;
+    }
+
+
+    li{
+        display: inline-block;
+        list-style: none;
+        padding-left: 2vw;
+        padding-top: 2.5vh;
+    }
+
+    li.left{
+padding-left: 50vw;
+}
+
+.container{
+    
+    padding: 10vh;
+    height: 200vh;
+    width: 50vw;
+    margin: auto;
+    background-image: url('images/bg.jpg');
+    border: 2px solid black;
+    color: black;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li> 
+                <li>Experience</li> 
+                <li>About</li>
+                <li class="left"><input type="text" placeholder="Search..."></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis accusamus ipsum laudantium minus, nemo nobis ab nostrum natus deleniti in, eum velit officiis cum quidem quia tempora a sit autem. Animi autem accusamus quidem perspiciatis temporibus magni ducimus harum repellat quos quam velit asperiores saepe, possimus eveniet doloribus dignissimos culpa vitae ratione deleniti. Esse provident inventore repellat a mollitia placeat harum, neque ducimus porro ut!</p></div>
+</body>
+</html>
